@@ -1,0 +1,73 @@
+.react-tabs__tab--selected {
+  border: 0px;
+  color: #99cc33;
+}
+.react-tabs__tab-list {
+  border-bottom: 0px;
+  /* padding: 0px; */
+}
+.react-tabs__tab {
+  padding-left: 0px;
+  padding-right: 20px;
+  transition: color 0.3s ease, transform 0.2s ease, background-color 0.3s ease;
+
+}
+
+
+/* Fade-in effect for the container */
+.fade-in-container {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Slide-up animation for the subheading */
+.slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.5s; /* Delay for the slide-up */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 639px) {
+  .react-tabs__tab {
+    padding-right: 5px;
+  }
+}
+
+.react-tabs__tab-list {
+  border-bottom: 0px;
+  padding: 0px;
+}
+
+
+
+.react-tabs__tab:hover {
+  color: #99cc33; /* Change color on hover */
+  transform: translateY(-2px); /* Slightly move the tab up when hovered */
+}
+
+.react-tabs__tab--selected {
+  color: #99cc33; /* Active tab color */
+  /* border-bottom: 2px solid #99cc33 !important; Active tab border with !important */
+
+}
+

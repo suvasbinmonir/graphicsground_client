@@ -1,0 +1,22 @@
+@font-face {
+  font-family: sf-pro-regular;
+  src: url("/SF-Pro-Display-Regular.ttf");
+}
+
+.font-sf-regular {
+  font-family: sf-pro-regular;
+}
+@font-face {
+  font-family: sf-pro-thin;
+  src: url("/SF-Pro-Display-Thin.ttf");
+}
+.font-sf-thin {
+  font-family: sf-pro-thin;
+}
+@font-face {
+  font-family: sf-pro-light;
+  src: url("/SF-Pro-Display-Light.ttf");
+}
+.font-sf-light {
+  font-family: sf-pro-light;
+}

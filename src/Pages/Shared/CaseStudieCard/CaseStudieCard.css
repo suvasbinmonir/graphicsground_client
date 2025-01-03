@@ -1,0 +1,16 @@
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);  /* Moves the card up */
+    }
+    100% {
+      transform: translateY(0);  /* Returns the card to original position */
+    }
+  }
+  
+  .upDownAnimation:hover {
+    animation: upDown 0.5s ease-in-out 1; /* Duration 0.5s and runs once */
+  }
+  

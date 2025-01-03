@@ -1,0 +1,13 @@
+/* Custom Toast Styles */
+.custom-toast {
+  background-color: #1a202c !important; /* Dark background */
+  color: #ffffff !important; /* White text */
+}
+
+.custom-toast-progress {
+  background: #4caf50 !important; /* Green progress bar */
+}
+.Toastify__toast {
+  background-color: #1a202c !important; /* Dark background */
+  color: #ffffff !important;
+}
